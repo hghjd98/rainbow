@@ -11,13 +11,13 @@ body {
 
 
 .img-wrapper {
-    text-align: center; /* Выравнивание по центру */
+    text-align: center;
 }
 
 .img-wrapper img {
-    width: 360px; /* Ширина изображения */
-    height: auto; /* Сохраняет пропорции изображения */
-    margin: 0 50px; /* Расстояние между картинками */
+    width: 360px;
+    height: auto; 
+    margin: 0 50px;
 }
 
 
@@ -30,46 +30,45 @@ body {
 }
 
 .bottom-links {
-    margin-top: 50px; /* Измените значение по вашему усмотрению */
+    margin-top: 50px; 
 }
 
 .containerblock {
     width: 90%;
     margin: 0 auto;
     padding: 20px;
-    backdrop-filter: blur(5px); /* Применяем эффект размытия к фону */
-    background-color: rgba(255, 255, 255, 0.552); /* Прозрачный цвет фона */
-    border-radius: 10px; /* Закругляем углы */
+    backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.552); 
+    border-radius: 10px; 
 }
 
 #services-and-gallery {
-    padding: 20px 0; /* Отступы сверху и снизу */
+    padding: 20px 0; 
     text-align: center;
-    display: flex; /* Располагаем блоки в строку */
-    justify-content: space-around; /* Выравниваем блоки по горизонтали с расстоянием между ними */
+    display: flex; 
+    justify-content: space-around; 
 }
 
 .info-box {
-    background-color: rgba(255, 255, 255, 0.552); /* Прозрачный цвет фона */
-    backdrop-filter: blur(5px); /* Применяем эффект размытия к фону */
-    border-radius: 10px; /* Закругляем углы */
+    background-color: rgba(255, 255, 255, 0.552);
+    border-radius: 10px; 
     padding: 20px;
-    margin: 0; /* Убираем маргин */
-    width: calc(50% - 20px); /* Ширина блока 50% с учетом границы и отступов */
-    box-sizing: border-box; /* Учитываем границы в вычислении ширины */
+    margin: 0;
+    width: calc(50% - 20px); 
+    box-sizing: border-box; 
     text-align: center;
 }
 
 .info-box h2 {
-    margin-top: 0; /* Убираем верхний отступ для заголовка */
+    margin-top: 0; 
 }
 
 .info-box ul {
-    list-style: none; /* Убираем маркеры у списка услуг */
+    list-style: none; 
 }
 
 .info-box ul li {
-    margin-bottom: 10px; /* Добавляем небольшой отступ между пунктами списка */
+    margin-bottom: 10px; 
 }
 
 .price-container{
@@ -150,8 +149,8 @@ html {
 
 .gallery-images {
     display: flex;
-    justify-content: flex-start; /* Выравниваем изображения по левому краю */
-    flex-wrap: wrap; /* Разрешаем перенос изображений на новую строку */
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
 }
 
 .gallery img:hover {
@@ -160,10 +159,10 @@ html {
 }
 
 .gallery-images img {
-    width: 100px; /* Фиксированная ширина изображений */
-    height: 100px; /* Фиксированная высота изображений */
-    margin-right: 5px; /* Добавляем небольшой отступ между изображениями */
-    margin-bottom: 5px; /* Добавляем небольшой отступ снизу */
+    width: 100px; 
+    height: 100px; 
+    margin-right: 5px; 
+    margin-bottom: 5px; 
 }
 
 .expanded-img-container {
@@ -189,10 +188,10 @@ button:hover {
 }
 
 footer {
-    background-color: #333; /* черный цвет */
-    color: #fff; /* белый цвет текста */
-    padding: 20px 0; /* отступы сверху и снизу */
-    text-align: center; /* выравниваем текст по центру */
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
     font-size: 14px;
 }
 
@@ -205,12 +204,12 @@ footer {
 
 
 .contact-info p {
-    margin: 5px 0; /* отступы между параграфами с контактной информацией */
+    margin: 5px 0; 
     text-align: left;
 }
 
 .logo img {
-    max-width: 100px; /* ограничиваем ширину логотипа */
+    max-width: 100px;
 }
 
 
