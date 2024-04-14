@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Детский развлекательный центр "Радуга"</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <div class="container">
+            <h1>Детский развлекательный центр "Радуга"</h1>
+            <div class="img-wrapper">
+                <img src="menu.jpg" alt="Описание изображения">
+                <img src="test1.jpg" alt="Описание изображения">
+            </div>
+            <div class="bottom-links">
+                <nav>
+                    <ul>
+                        <li><a href="#about-info-box" onclick="expandServiceList('about')">О нас</a></li>
+                        <li><a href="#services-and-gallery" onclick="expandServiceList('services')">Услуги</a></li>
+                        <li><a href="#services-and-gallery" onclick="expandServiceList('gallery')">Галерея</a></li>
+                        <li><a href="#price" onclick="expandServiceList('price')">Цены</a></li>
+                    </ul>
+                 </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about-info-box">                
+            <div class="containerblock">
+                <h2 onclick="toggleServiceList('about')">О нас</h2>
+
+                <div class="service-list">
+
+            <ul>
+                <p>Детский развлекательный комплекс "Радуга" - это место, где ваш ребенок может безопасно и весело провести время. У нас есть игровые площадки, аттракционы и многое другое!</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services-and-gallery">
+        <div class="info-box">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Игровые площадки</li>
+                <li>Аттракционы</li>
+                <li>Мастер-классы</li>
+                <li>Дни рождения</li>
+                <li>И многое другое!</li>
+            </ul>
+        </div>
+        <div class="info-box gallery">
+            <h2>Галерея</h2>
+            <div class="gallery-images">
+                        <img src="1.jpg" alt="Image 1" onclick="openFullSizeImage('1.jpg')">
+                        <img src="2.jpg" alt="Image 2" onclick="openFullSizeImage('2.jpg')">
+                        <img src="3.jpg" alt="Image 3" onclick="openFullSizeImage('3.jpg')">
+                        <img src="4.jpg" alt="Image 4" onclick="openFullSizeImage('4.jpg')">
+                        <img src="5.jpg" alt="Image 5" onclick="openFullSizeImage('5.jpg')">
+                        <img src="6.jpg" alt="Image 6" onclick="openFullSizeImage('6.jpg')">
+                        <img src="7.jpg" alt="Image 7" onclick="openFullSizeImage('7.jpg')">
+                        <img src="8.jpg" alt="Image 8" onclick="openFullSizeImage('8.jpg')">
+                        <img src="9.jpg" alt="Image 9" onclick="openFullSizeImage('9.jpg')">
+                        <img src="10.jpg" alt="Image 10" onclick="openFullSizeImage('10.jpg')">
+                        <img src="11.jpg" alt="Image 11" onclick="openFullSizeImage('11.jpg')">
+                        <img src="12.jpg" alt="Image 12" onclick="openFullSizeImage('12.jpg')">
+            </div>
+        </div>
+</section>
+    
+<div id="expanded-img-container" class="expanded-img-container" onclick="closeFullSizeImage()">
+        <img id="expanded-img" class="expanded-img">
+</div>
+    
+
+    <section id="price">
+        <div class="about-info-box">                
+            <div class="containerblock">
+                <h2 onclick="toggleServiceList('price')">Цены</h2>
+                <div class="service-list">
+                    <div class="price-container">
+                        <img src="price.png";>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <p>Адрес: г. Алушта, Профессорский уголок, ул. Набережная, 4-а</p>
+                <p>Телефон: + 7 978 85 77 111 / + 7 978 83 29 999</p>
+                <p>Email: info@aquaparkalushta.ru</p>
+            </div>
+                <p>© 2024 Детский развлекательный комплекс "Радуга"</p>
+            <div class="logo">
+                <img src="logo.png" alt="Логотип">
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
