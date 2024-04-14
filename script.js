@@ -11,13 +11,12 @@ function toggleServiceList(sectionId) {
 
 function expandServiceList(sectionId) {
     var section = document.getElementById(sectionId);
-    if (!section) return; // Проверяем, существует ли раздел с указанным идентификатором
+    if (!section) return; 
     var serviceList = section.querySelector('.service-list');
-    if (!serviceList) return; // Проверяем, существует ли список услуг внутри раздела
+    if (!serviceList) return; 
     serviceList.classList.add("expanded");
     serviceList.style.maxHeight = serviceList.scrollHeight + "px";
     
-    // Прокрутка к разделу, если он находится вне области видимости
     section.scrollIntoView({ behavior: 'smooth' });
 }
 
