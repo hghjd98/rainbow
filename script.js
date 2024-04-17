@@ -11,12 +11,11 @@ function toggleServiceList(sectionId) {
 
 function expandServiceList(sectionId) {
     var section = document.getElementById(sectionId);
-    if (!section) return; 
+    if (!section) return;
     var serviceList = section.querySelector('.service-list');
-    if (!serviceList) return; 
+    if (!serviceList) return;
     serviceList.classList.add("expanded");
     serviceList.style.maxHeight = serviceList.scrollHeight + "px";
-    
     section.scrollIntoView({ behavior: 'smooth' });
 }
 
