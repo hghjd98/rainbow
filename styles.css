@@ -9,70 +9,11 @@ body {
     font-size: 22px;
 }
 
-
-.img-wrapper {
-    text-align: center;
-}
-
-.img-wrapper img {
-    width: 360px;
-    height: auto; 
-    margin: 0 50px;
-}
-
-
-
-
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-}
-
-.bottom-links {
-    margin-top: 50px; 
-}
-
-.containerblock {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    backdrop-filter: blur(5px); 
-    background-color: rgba(255, 255, 255, 0.552); 
-    border-radius: 10px; 
-}
-
-#services-and-gallery {
-    padding: 20px 0; 
     text-align: center;
-    display: flex; 
-    justify-content: space-around; 
-}
-
-.info-box {
-    background-color: rgba(255, 255, 255, 0.552);
-    border-radius: 10px; 
-    padding: 20px;
-    margin: 0;
-    width: calc(50% - 20px); 
-    box-sizing: border-box; 
-    text-align: center;
-}
-
-.info-box h2 {
-    margin-top: 0; 
-}
-
-.info-box ul {
-    list-style: none; 
-}
-
-.info-box ul li {
-    margin-bottom: 10px; 
-}
-
-.price-container{
-    background-position: center;
 }
 
 header {
@@ -84,6 +25,20 @@ header {
     color: rgb(0, 0, 0);
 }
 
+.img-wrapper {
+    text-align: center; /* Выравнивание по центру */
+}
+
+.img-wrapper img {
+    width: 360px;
+    height: auto;
+    margin: 0 40px;
+}
+
+.bottom-links {
+    margin-top: 50px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -92,7 +47,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 nav ul li a {
@@ -108,18 +63,6 @@ nav ul li a:hover {
     background-color: #80c5b0;
 }
 
-section {
-    padding: 40px 0;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
 button, h2 {
     background-color: #e59941;
     color: #fff;
@@ -129,16 +72,55 @@ button, h2 {
     display: inline-block;
 }
 
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.containerblock {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.552);
+    border-radius: 10px;
+}
+
 .service-list {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
 }
 
-html {
-    scroll-behavior: smooth;
+#services-and-gallery {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
+.info-box {
+    background-color: rgba(255, 255, 255, 0.552);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.info-box h2 {
+    margin-top: 0;
+}
+
+.info-box ul {
+    list-style: none;
+}
+
+.info-box ul li {
+    margin-bottom: 10px;
+}
 
 .gallery img {
     width: 100%;
@@ -149,8 +131,8 @@ html {
 
 .gallery-images {
     display: flex;
-    justify-content: flex-start; 
-    flex-wrap: wrap; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .gallery img:hover {
@@ -159,10 +141,10 @@ html {
 }
 
 .gallery-images img {
-    width: 100px; 
-    height: 100px; 
-    margin-right: 5px; 
-    margin-bottom: 5px; 
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .expanded-img-container {
@@ -183,15 +165,15 @@ html {
     max-height: 90%;
 }
 
-button:hover {
-    background-color: #555;
+.price-container{
+    background-position: center;
 }
 
 footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 20px 0; 
-    text-align: center; 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
     font-size: 14px;
 }
 
@@ -201,15 +183,17 @@ footer {
     align-items: center;
 }
 
-
-
 .contact-info p {
-    margin: 5px 0; 
+    margin: 5px 0;
     text-align: left;
 }
 
 .logo img {
     max-width: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
